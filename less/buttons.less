@@ -135,6 +135,9 @@ input[type="button"] {
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
+.btn-dark.active,
+.btn-silver.active,
+.btn-gold.active,
 .btn-success.active,
 .btn-info.active,
 .btn-inverse.active {
@@ -158,6 +161,18 @@ input[type="button"] {
 // Danger and error appear as red
 .btn-danger {
   .buttonBackground(@btnDangerBackground, @btnDangerBackgroundHighlight);
+}
+// Dark appear as darkred
+.btn-dark {
+  .buttonBackground(@btnDarkBackground, @btnDarkBackgroundHighlight);
+}
+// Silver appear as silver
+.btn-silver {
+  .buttonBackground(@btnSilverBackground, @btnSilverBackgroundHighlight);
+}
+// Gold appear as gold
+.btn-gold {
+  .buttonBackground(@btnGoldBackground, @btnGoldBackgroundHighlight);
 }
 // Success appears as green
 .btn-success {

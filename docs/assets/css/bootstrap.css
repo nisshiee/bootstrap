@@ -3200,6 +3200,9 @@ input[type="button"].btn-block {
 .btn-primary.active,
 .btn-warning.active,
 .btn-danger.active,
+.btn-dark.active,
+.btn-silver.active,
+.btn-gold.active,
 .btn-success.active,
 .btn-info.active,
 .btn-inverse.active {
@@ -3305,6 +3308,102 @@ input[type="button"].btn-block {
 .btn-danger:active,
 .btn-danger.active {
   background-color: #942a25 \9;
+}
+
+.btn-dark {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #9a3138;
+  *background-color: #663333;
+  background-image: -moz-linear-gradient(top, #bd2f3b, #663333);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#bd2f3b), to(#663333));
+  background-image: -webkit-linear-gradient(top, #bd2f3b, #663333);
+  background-image: -o-linear-gradient(top, #bd2f3b, #663333);
+  background-image: linear-gradient(to bottom, #bd2f3b, #663333);
+  background-repeat: repeat-x;
+  border-color: #663333 #663333 #331a1a;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbd2f3b', endColorstr='#ff663333', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark.active,
+.btn-dark.disabled,
+.btn-dark[disabled] {
+  color: #ffffff;
+  background-color: #663333;
+  *background-color: #552b2b;
+}
+
+.btn-dark:active,
+.btn-dark.active {
+  background-color: #442222 \9;
+}
+
+.btn-silver {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #87afbb;
+  *background-color: #3d7885;
+  background-image: -moz-linear-gradient(top, #b9d3df, #3d7885);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b9d3df), to(#3d7885));
+  background-image: -webkit-linear-gradient(top, #b9d3df, #3d7885);
+  background-image: -o-linear-gradient(top, #b9d3df, #3d7885);
+  background-image: linear-gradient(to bottom, #b9d3df, #3d7885);
+  background-repeat: repeat-x;
+  border-color: #3d7885 #3d7885 #254951;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb9d3df', endColorstr='#ff3d7885', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-silver:hover,
+.btn-silver:active,
+.btn-silver.active,
+.btn-silver.disabled,
+.btn-silver[disabled] {
+  color: #ffffff;
+  background-color: #3d7885;
+  *background-color: #356874;
+}
+
+.btn-silver:active,
+.btn-silver.active {
+  background-color: #2d5862 \9;
+}
+
+.btn-gold {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #b3bc26;
+  *background-color: #80843a;
+  background-image: -moz-linear-gradient(top, #d5e118, #80843a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d5e118), to(#80843a));
+  background-image: -webkit-linear-gradient(top, #d5e118, #80843a);
+  background-image: -o-linear-gradient(top, #d5e118, #80843a);
+  background-image: linear-gradient(to bottom, #d5e118, #80843a);
+  background-repeat: repeat-x;
+  border-color: #80843a #80843a #4c4f23;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd5e118', endColorstr='#ff80843a', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-gold:hover,
+.btn-gold:active,
+.btn-gold.active,
+.btn-gold.disabled,
+.btn-gold[disabled] {
+  color: #ffffff;
+  background-color: #80843a;
+  *background-color: #6f7232;
+}
+
+.btn-gold:active,
+.btn-gold.active {
+  background-color: #5e612a \9;
 }
 
 .btn-success {
@@ -3626,6 +3725,18 @@ input[type="submit"].btn.btn-mini {
   background-color: #bd362f;
 }
 
+.btn-group.open .btn-dark.dropdown-toggle {
+  background-color: #663333;
+}
+
+.btn-group.open .btn-silver.dropdown-toggle {
+  background-color: #3d7885;
+}
+
+.btn-group.open .btn-gold.dropdown-toggle {
+  background-color: #80843a;
+}
+
 .btn-group.open .btn-success.dropdown-toggle {
   background-color: #51a351;
 }
@@ -3662,6 +3773,9 @@ input[type="submit"].btn.btn-mini {
 .btn-primary .caret,
 .btn-warning .caret,
 .btn-danger .caret,
+.btn-dark .caret,
+.btn-silver .caret,
+.btn-gold .caret,
 .btn-info .caret,
 .btn-success .caret,
 .btn-inverse .caret {
